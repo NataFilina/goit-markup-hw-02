@@ -1,0 +1,11 @@
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-filters {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+}
