@@ -1,11 +1,194 @@
-.projects {
-    display: flex;
-    justify-content: space-between;
+body{
+    font-family: "Roboto" sans-serif;
+    color: #434455;
 }
-.btn-filters {
-    display: flex;
-    justify-content: center;
+.link{
+    text-decoration: none;
 }
-ul {
+.item{
     list-style-type: none;
+}
+/* MAIN PAGE */
+/* header */
+.logo-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-studio{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+.navigation-item-link {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+}
+.contacts-item-link {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* section hero */
+.hero{
+    /* width: 1440px;
+    height: 600px; */
+    background: #2E2F42;
+}
+.title {
+    width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07em;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+.btn-order {
+    padding: 16px 32px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+.btn-order:hover,
+.btn-order:focus {
+    background: #404BBF;
+}
+/* section advantages */
+.advantages-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+}
+.advantages-card-content {
+    width: 264px;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* section ability */
+.chapter-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+}
+.ability-card {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* section team */
+.team {
+    /* height: 732px; */
+    background: #F4F4FD;
+}
+.team-item{
+    width: 264px;
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+.chapter-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    text-align: center;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+}
+.team-job {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+/* section footer */
+.footer {
+    /* height: 312px; */
+    background: #2E2F42;
+}
+.logo-web-footer{
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-studio-footer{
+    color: #F4F4FD;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-content {
+    
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+/* PORTFOLIO */
+.btns-filters-btn{
+    padding: 12px 24px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.btns-filters-btn:hover,
+.btns-filters-btn:focus {
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+/* section projects */
+.project-card {
+    box-sizing: border-box;
+    width: 360px;
+    height: 420px;
+    border: 1px solid #E7E9FC;
+}
+.project-card-img {
+}
+.project-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.project-card-content {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
