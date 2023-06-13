@@ -199,9 +199,11 @@ body{
     font-size: 20px;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    line-height: 1.2;
 }
 .project-card-content {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--content-color);
+    line-height: 1.5;
 }
