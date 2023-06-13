@@ -1,64 +1,92 @@
+:root {
+    --title-color: #2E2F42;
+    --content-color: #434455;
+    --logo-color: #4d5ae5;
+    --hover-list-color: #404bbf;
+  }
 body{
-    font-family: "Roboto" sans-serif;
-    color: #434455;
+    font-family: "Roboto", sans-serif;
+    color: var(--content-color);
+    background-color: FFFFFF;
 }
 .link{
     text-decoration: none;
 }
-.item{
-    list-style-type: none;
+.list{
+    list-style: none;
 }
+
 /* MAIN PAGE */
 /* header */
-.logo-web {
-    font-family: 'Raleway';
+.logo-link {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--logo-color); 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .logo-studio{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--title-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .navigation-item-link {
     font-weight: 500;
     font-size: 16px;
-    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.navigation-item-link:hover,
+.navigation-item-link:focus {
+    color: var(--hover-list-color);
+}
+.contacts-box {
+    font-style: normal;
 }
 .contacts-item-link {
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
+    line-height: 1.5;
+    color: var(--content-color);
+}
+.contacts-item-link:hover,
+.contacts-item-link:focus {
+    color: var(--hover-list-color);
 }
 /* section hero */
 .hero{
     /* width: 1440px;
     height: 600px; */
-    background: #2E2F42;
+    background: var(--title-color);
 }
 .title {
-    width: 496px;
+    /* width: 496px; */
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07em;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
 }
 .btn-order {
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; */
     color: #FFFFFF;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
 .btn-order:hover,
 .btn-order:focus {
@@ -69,15 +97,15 @@ body{
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
     text-align: center;
+    line-height: 1.2;
 }
 .advantages-card-content {
-    width: 264px;
+    /* width: 264px; */
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 /* section ability */
 .chapter-title {
@@ -85,8 +113,9 @@ body{
     font-size: 36px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
     text-align: center;
+    line-height: 1.11;
 }
 .ability-card {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -97,41 +126,45 @@ body{
     background: #F4F4FD;
 }
 .team-item{
-    width: 264px;
-    height: 380px;
+    /* width: 264px; */
+    /* height: 380px; */
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; */
 }
 .chapter-title {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
     text-align: center;
+    line-height: 1.11;
 }
 .team-name {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
     text-align: center;
+    line-height: 1.2;
 }
 .team-job {
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
     text-align: center;
+    line-height: 1.5;
 }
 /* section footer */
 .footer {
     /* height: 312px; */
-    background: #2E2F42;
+    background: var(--title-color);
 }
-.logo-web-footer{
+.logo-link-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -146,18 +179,20 @@ body{
 .footer-content {
     
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 /* PORTFOLIO */
 .btns-filters-btn{
-    padding: 12px 24px;
+    font-family: "Roboto", sans-serif;
+    /* padding: 12px 24px; */
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
@@ -165,18 +200,15 @@ body{
 .btns-filters-btn:hover,
 .btns-filters-btn:focus {
     background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.04em;
+    /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px; */
     color: #FFFFFF;
 }
 /* section projects */
 .project-card {
-    box-sizing: border-box;
-    width: 360px;
-    height: 420px;
+    /* box-sizing: border-box; */
+    /* width: 360px; */
+    /* height: 420px; */
     border: 1px solid #E7E9FC;
 }
 .project-card-img {
@@ -185,10 +217,10 @@ body{
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 .project-card-content {
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--content-color);
 }
